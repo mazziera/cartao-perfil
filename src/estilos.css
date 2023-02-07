@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+
+body{
+    background-color:  hsl(185, 75%, 39%);
+    font-family:'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.divisoria{
+    width: 90%;
+}
+
+
+.cartao{
+    background-color: hsl(0, 19%, 92%);
+    width: 320px;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cartao .foto{
+    margin-top: 10px;
+    filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.425));
+}
+
+.cartao .informacoes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao .nome{
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 7%, 30%);
+}
+
+.cartao .cidade{
+    margin: 3px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(229, 7%, 30%);
+}
+
+
+.conteudo ul{
+    width: 75%;
+    list-style: none;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    flex-wrap: wrap;
+   
+}
+
+.cartao .numeros{
+text-align: center;
+}
+
+.numeros .descricao{
+    margin: 0;
+}
+
+.descricao{
+    font-weight: 700;
+    color: hsl(229, 7%, 30%);
+    font-size: 17px;
+}
+
+span{
+    font-weight: 800;
+    font-size: 18px;
+    color: hsl(227, 50%, 25%);
+}
